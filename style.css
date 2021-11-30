@@ -285,10 +285,30 @@ section .title::after{
 .services .serv-content .card:hover .box{
     transform: scale(1.05);
 }
-.services .serv-content .card i{
+/* .services .serv-content .card i{
     font-size: 50px;
     color: crimson;
     transition: color 0.3s ease;
+} */
+.services .serv-content .card img{
+    width: 290px;
+    height: 150px;
+}
+.services .serv-content .card .link{
+    margin-top: 15px;
+}
+.services .serv-content .card a{
+    color:#fff;
+    background-color: crimson;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: all 0.5s ease;
+}
+.services .serv-content .card:hover a{
+    color:#fff;
+    background-color: #111;
+    padding: 5px 10px;
+    border-radius: 5px;
 }
 .services .serv-content .card:hover i{
     color: #fff;
